@@ -13,7 +13,7 @@ public class ArraysApp {
     public static void main(String[] args) {
         String[] zoo = new String[3];
         Scanner sc = new Scanner(System.in);
-        //READ zoo animal
+
         //Lee animales del teclado
         for (int i = 0; i < zoo.length; i++){
             System.out.println("Ingresa un animal en la jaula: " + (i+1));
@@ -29,7 +29,7 @@ public class ArraysApp {
         }
         System.out.println("--------------------------------------------");
 
-        //SEARCH a zoo animal
+
             //Busca si se ingreso un animal en concreto en el Array
         for(int i = 0; i<zoo.length; i++){
         if(zoo[i].equals("Donkey")){
